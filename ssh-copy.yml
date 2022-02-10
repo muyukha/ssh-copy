@@ -1,4 +1,4 @@
- - task: CopyFiles@2
+task: CopyFiles@2
   inputs:
     SourceFolder: c:\dev\hello
     contents: '**.exe*'

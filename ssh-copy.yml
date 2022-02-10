@@ -1,1 +1,5 @@
-
+ - task: CopyFiles@2
+  inputs:
+    SourceFolder: c:\dev\hello
+    contents: '**.exe*'
+    targetFolder: c:\dev\out2
